@@ -2,10 +2,10 @@ class Config:
     '''
     General configuration parent class
     '''
-    pass
+    MOVIE_API_BASE_URL ='https://api.themoviedb.org/3/movie/{}?api_key= b32ad606c1192f578c88de271e21a6b7'
 
 
-class ProdConfig(config):
+class ProdConfig(Config):
     
     '''
     Production  configuration child class
